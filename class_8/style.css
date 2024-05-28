@@ -1,0 +1,50 @@
+#contenar{
+
+  display: flex;
+  justify-content: space-evenly;
+   
+}
+h1{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: tomato;
+}
+
+img{
+width: 100%;
+border-radius: 25px;
+}
+.box{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    width: 90%;
+    height: 6%;
+   margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+}
+@media (min-width: 400px) {
+    #contenar{
+
+       flex-wrap: wrap;
+         
+      }
+}
+ 

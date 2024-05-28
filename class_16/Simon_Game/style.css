@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1.2rem;
+}
+.btn-container{
+    display: flex;
+   justify-content: center;
+}
+.red{
+    background-color: #d95980;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.green{
+   background-color: #63aac0;
+}
+.purple{
+    background-color: #819ff9;
+}
+.flash{
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes flash {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}

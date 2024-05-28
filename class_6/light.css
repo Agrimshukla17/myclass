@@ -1,0 +1,39 @@
+#outer{
+    background-color: aqua;
+    height: 94px;
+   padding: 3px;
+    width: 37px;
+}
+#innar{
+    padding: 3px;
+  border: 1px solid black;
+
+  height: 88px;
+  width: 29px;
+}
+#red{
+    margin: 1px;
+border: 1px solid black;
+width: 26px;
+height: 26px;
+border-radius: 50%;
+ background-color: red;
+}
+#yelow{
+    border: 1px solid black;
+width: 26px;
+height: 26px;
+border-radius: 50%;
+ background-color: yellow;
+ margin: 1px;
+
+}
+
+#green{
+    border: 1px solid black;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+     background-color: green;
+     margin: 1px;
+}
