@@ -1,3 +1,3 @@
 # Full-Stack Web Development class.
 
-all class
+all classes
